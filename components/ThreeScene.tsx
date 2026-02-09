@@ -1,6 +1,7 @@
+
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
-import type { SkyColors, CloudColors } from '../types';
+import type { SkyColors, CloudColors } from '../types.ts';
 
 // Shaders
 const skyVertexShader = `

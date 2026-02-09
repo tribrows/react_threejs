@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import type { SkyColors, CloudColors } from '../types';
+import type { SkyColors, CloudColors } from '../types.ts';
 
 interface ColorControlsProps {
   skyColors: SkyColors;

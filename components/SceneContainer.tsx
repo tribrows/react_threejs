@@ -1,8 +1,8 @@
 
 import React from 'react';
-import ThreeScene from './ThreeScene';
-import ColorControls from './ColorControls';
-import type { SkyColors, CloudColors } from '../types';
+import ThreeScene from './ThreeScene.tsx';
+import ColorControls from './ColorControls.tsx';
+import type { SkyColors, CloudColors } from '../types.ts';
 
 interface SceneContainerProps {
   skyColors: SkyColors;

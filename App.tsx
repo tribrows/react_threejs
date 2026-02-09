@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import LoadingScreen from './components/LoadingScreen';
-import SceneContainer from './components/SceneContainer';
-import type { SkyColors, CloudColors } from './types';
+import LoadingScreen from './components/LoadingScreen.tsx';
+import SceneContainer from './components/SceneContainer.tsx';
+import type { SkyColors, CloudColors } from './types.ts';
 
 const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
